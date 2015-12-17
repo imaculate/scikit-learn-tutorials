@@ -24,7 +24,7 @@ plt.plot(pca.explained_variance_, linewidth=2)
 plt.axis('tight')
 plt.xlabel('n_components')
 plt.ylabel('explained_variance_')
-
+plt.show()
 ###############################################################################
 # Prediction
 
