@@ -39,17 +39,23 @@ if __name__ == "__main__":
 
     # TASK: Build a vectorizer / classifier pipeline that filters out tokens
     # that are too rare or too frequent
+    svc = Pipeline([('vect' , TfidfVectorizer(analyzer='word')), ('clf',LinearSVC())])
 
     # TASK: Build a grid search to find out whether unigrams or bigrams are
     # more useful.
+    params =[(1,1),(2,2)]
+    clf = GridSearchCV(estimator=svc, param_grid= dict(ngram_range=params),   n_jobs=-1)
+
     # Fit the pipeline on the training set using grid search for the parameters
+    clf.fit(docs_train, y_train)
 
     # TASK: print the cross-validated scores for the each parameters set
     # explored by the grid search
-
+    for param in params:
+        print(clf.set_params(ngram_range = param).fit(docs_train, y_train).score(docs_test, y_test))
     # TASK: Predict the outcome on the testing set and store it in a variable
     # named y_predicted
-
+    y_predicted = clf.predict(docs_test)
     # Print the classification report
     print(metrics.classification_report(y_test, y_predicted,
                                         target_names=dataset.target_names))

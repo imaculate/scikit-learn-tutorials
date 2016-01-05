@@ -17,7 +17,7 @@ from sklearn.pipeline import Pipeline
 from sklearn.datasets import load_files
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
-
+import pylab as pl
 
 # The training data folder must be passed as first argument
 languages_data_folder = sys.argv[1]
@@ -30,14 +30,15 @@ docs_train, docs_test, y_train, y_test = train_test_split(
 
 # TASK: Build a an vectorizer that splits strings into sequence of 1 to 3
 # characters instead of word tokens
+tfdif = TfidfVectorizer(use_idf=False, ngram_range=(1, 3), analyzer='char')
 
 # TASK: Build a vectorizer / classifier pipeline using the previous analyzer
 # the pipeline instance should stored in a variable named clf
-
+clf = Pipeline([('vec', tfdif) ,('clf', Perceptron())])
 # TASK: Fit the pipeline on the training set
-
+clf.fit(docs_train, y_train)
 # TASK: Predict the outcome on the testing set in a variable named y_predicted
-
+y_predicted = clf.predict(docs_test)
 # Print the classification report
 print(metrics.classification_report(y_test, y_predicted,
                                     target_names=dataset.target_names))
@@ -46,9 +47,9 @@ print(metrics.classification_report(y_test, y_predicted,
 cm = metrics.confusion_matrix(y_test, y_predicted)
 print(cm)
 
-#import pylab as pl
-#pl.matshow(cm, cmap=pl.cm.jet)
-#pl.show()
+
+pl.matshow(cm, cmap=pl.cm.jet)
+pl.show()
 
 # Predict the result on some short new sentences:
 sentences = [

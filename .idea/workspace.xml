@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da019119-4365-47f6-8d84-bc985df07a13" name="Default" comment="Showed graph for pipelining">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plot-stock-market.py" />
+    <list default="true" id="da019119-4365-47f6-8d84-bc985df07a13" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/languages/fetch_data.py" afterPath="$PROJECT_DIR$/data/languages/fetch_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspace/exercise_01_language_train_model.py" afterPath="$PROJECT_DIR$/workspace/exercise_01_language_train_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workspace/exercise_02_sentiment.py" afterPath="$PROJECT_DIR$/workspace/exercise_02_sentiment.py" />
     </list>
     <ignored path="scikit-learn-tests.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,26 +25,44 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="exercise_01_language_train_model.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/workspace/exercise_01_language_train_model.py">
+      <file leaf-file-name="exercise_02_sentiment.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/workspace/exercise_02_sentiment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.042821158">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="48" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="48" />
               <folding>
-                <element signature="e#367#377#0" expanded="true" />
+                <element signature="e#426#436#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exercise_02_sentiment.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/workspace/exercise_02_sentiment.py">
+      <file leaf-file-name="fetch_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/movie_reviews/fetch_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4282116">
+              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="text.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Anaconda3/Lib/site-packages/sklearn/feature_extraction/text.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-              <folding>
-                <element signature="e#426#436#0" expanded="true" />
-              </folding>
+              <caret line="1213" column="67" selection-start-line="1213" selection-start-column="52" selection-end-line="1213" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_search.py" pinned="false" current-in-tab="false">
+        <entry file="file://D:/scikit-learn/sklearn/model_selection/_search.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="778" column="8" selection-start-line="778" selection-start-column="8" selection-end-line="778" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,10 +121,10 @@
         <option value="$PROJECT_DIR$/ica.py" />
         <option value="$PROJECT_DIR$/face_recognition.py" />
         <option value="$PROJECT_DIR$/pipelining.py" />
-        <option value="$PROJECT_DIR$/workspace/exercise_01_language_train_model.py" />
-        <option value="$PROJECT_DIR$/workspace/exercise_02_sentiment.py" />
         <option value="$PROJECT_DIR$/plot-stock-market.py" />
         <option value="$PROJECT_DIR$/data/languages/fetch_data.py" />
+        <option value="$PROJECT_DIR$/workspace/exercise_01_language_train_model.py" />
+        <option value="$PROJECT_DIR$/workspace/exercise_02_sentiment.py" />
       </list>
     </option>
   </component>
@@ -184,24 +202,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="D:/scikit-learn" />
   </component>
-  <component name="RunManager" selected="Python.fetch_data">
-    <configuration default="false" name="face_recognition" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="scikit-learn-tests" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/face_recognition.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.fetch_data (1)">
     <configuration default="false" name="exercise_01_language_train_model" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -266,6 +267,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="scikit-learn-tests" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/languages/fetch_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="fetch_data (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data/movie_reviews" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="scikit-learn-tests" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/movie_reviews/fetch_data.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -411,19 +429,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Python.logisticregression" />
-      <item index="1" class="java.lang.String" itemvalue="Python.face_recognition" />
-      <item index="2" class="java.lang.String" itemvalue="Python.exercise_01_language_train_model" />
-      <item index="3" class="java.lang.String" itemvalue="Python.plot-stock-market" />
-      <item index="4" class="java.lang.String" itemvalue="Python.exercise_02_sentiment" />
-      <item index="5" class="java.lang.String" itemvalue="Python.fetch_data" />
+      <item index="1" class="java.lang.String" itemvalue="Python.exercise_01_language_train_model" />
+      <item index="2" class="java.lang.String" itemvalue="Python.plot-stock-market" />
+      <item index="3" class="java.lang.String" itemvalue="Python.exercise_02_sentiment" />
+      <item index="4" class="java.lang.String" itemvalue="Python.fetch_data" />
+      <item index="5" class="java.lang.String" itemvalue="Python.fetch_data (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.fetch_data" />
-        <item index="1" class="java.lang.String" itemvalue="Python.exercise_02_sentiment" />
-        <item index="2" class="java.lang.String" itemvalue="Python.plot-stock-market" />
-        <item index="3" class="java.lang.String" itemvalue="Python.exercise_01_language_train_model" />
-        <item index="4" class="java.lang.String" itemvalue="Python.face_recognition" />
+        <item index="0" class="java.lang.String" itemvalue="Python.fetch_data (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.fetch_data" />
+        <item index="2" class="java.lang.String" itemvalue="Python.exercise_02_sentiment" />
+        <item index="3" class="java.lang.String" itemvalue="Python.plot-stock-market" />
+        <item index="4" class="java.lang.String" itemvalue="Python.exercise_01_language_train_model" />
       </list>
     </recent_temporary>
   </component>
@@ -444,7 +462,13 @@
       <option name="project" value="LOCAL" />
       <updated>1450325056790</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fetched data, hopefully it will now work.">
+      <created>1451967896309</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1451967896309</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -453,6 +477,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33070865" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -462,7 +487,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -484,7 +508,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Showed graph for pipelining" />
-    <option name="LAST_COMMIT_MESSAGE" value="Showed graph for pipelining" />
+    <MESSAGE value="Fetched data, hopefully it will now work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fetched data, hopefully it will now work." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -493,53 +518,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/workspace/exercise_01_language_train_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-          <folding>
-            <element signature="e#367#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspace/exercise_02_sentiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding>
-            <element signature="e#426#436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/plot-stock-market.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#97#112#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/workspace/exercise_01_language_train_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#367#377#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/agglomerativeClustering.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="39" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pca.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -832,16 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/workspace/exercise_02_sentiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="39" selection-start-line="40" selection-start-column="39" selection-end-line="40" selection-end-column="39" />
-          <folding>
-            <element signature="e#426#436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/plot-stock-market.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -860,13 +828,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://D:/scikit-learn/doc/tutorial/text_analytics/solutions/exercise_01_language_train_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="32" column="65" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/workspace/exercise_01_language_train_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.042821158">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.28715366">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
           <folding>
             <element signature="e#367#377#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/scikit-learn/sklearn/model_selection/_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="778" column="8" selection-start-line="778" selection-start-column="8" selection-end-line="778" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/sklearn/svm/classes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3324937">
+          <caret line="150" column="8" selection-start-line="150" selection-start-column="8" selection-end-line="150" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Anaconda3/Lib/site-packages/sklearn/feature_extraction/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1213" column="67" selection-start-line="1213" selection-start-column="52" selection-end-line="1213" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/workspace/exercise_02_sentiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="48" selection-start-line="51" selection-start-column="45" selection-end-line="51" selection-end-column="48" />
+          <folding>
+            <element signature="e#426#436#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/movie_reviews/fetch_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4282116">
+          <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+          <folding />
         </state>
       </provider>
     </entry>
