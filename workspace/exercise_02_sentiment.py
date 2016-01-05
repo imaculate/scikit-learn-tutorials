@@ -19,6 +19,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.datasets import load_files
 from sklearn.model_selection import train_test_split
 from sklearn import metrics
+import matplotlib.pyplot as plt
 
 
 if __name__ == "__main__":
@@ -39,20 +40,20 @@ if __name__ == "__main__":
 
     # TASK: Build a vectorizer / classifier pipeline that filters out tokens
     # that are too rare or too frequent
-    svc = Pipeline([('vect' , TfidfVectorizer(analyzer='word')), ('clf',LinearSVC())])
+    svc = Pipeline([('vect' , TfidfVectorizer(analyzer='word', min_df=3, max_df=0.95)), ('clf',LinearSVC(C=1000))])
 
     # TASK: Build a grid search to find out whether unigrams or bigrams are
     # more useful.
-    params =[(1,1),(2,2)]
-    clf = GridSearchCV(estimator=svc, param_grid= dict(ngram_range=params),   n_jobs=-1)
+    params ={'vect__ngram_range':[(1,1),(2,2)]}
+    clf = GridSearchCV(estimator=svc, param_grid= params)
 
     # Fit the pipeline on the training set using grid search for the parameters
     clf.fit(docs_train, y_train)
 
     # TASK: print the cross-validated scores for the each parameters set
     # explored by the grid search
-    for param in params:
-        print(clf.set_params(ngram_range = param).fit(docs_train, y_train).score(docs_test, y_test))
+    print(clf.grid_scores_)
+
     # TASK: Predict the outcome on the testing set and store it in a variable
     # named y_predicted
     y_predicted = clf.predict(docs_test)
@@ -64,6 +65,6 @@ if __name__ == "__main__":
     cm = metrics.confusion_matrix(y_test, y_predicted)
     print(cm)
 
-    # import matplotlib.pyplot as plt
-    # plt.matshow(cm)
-    # plt.show()
+
+    plt.matshow(cm)
+    plt.show()
