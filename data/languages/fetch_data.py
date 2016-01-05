@@ -11,7 +11,32 @@ except ImportError:
     from urllib.request import Request, build_opener
 
 import lxml.html
-from lxml.etree import ElementTree
+#from lxml.etree import ElementTree
+try:
+  from lxml import etree
+  print("running with lxml.etree")
+except ImportError:
+  try:
+    # Python 2.5
+    import xml.etree.cElementTree as etree
+    print("running with cElementTree on Python 2.5+")
+  except ImportError:
+    try:
+      # Python 2.5
+      import xml.etree.ElementTree as etree
+      print("running with ElementTree on Python 2.5+")
+    except ImportError:
+      try:
+        # normal cElementTree install
+        import cElementTree as etree
+        print("running with cElementTree")
+      except ImportError:
+        try:
+          # normal ElementTree install
+          import elementtree.ElementTree as etree
+          print("running with ElementTree")
+        except ImportError:
+          print("Failed to import ElementTree from any known place")
 import numpy as np
 
 pages = {
@@ -61,10 +86,10 @@ for lang, page in pages.items():
 
     # decode the payload explicitly as UTF-8 since lxml is confused for some
     # reason
-    html_content = open(html_filename).read()
+    html_content = open(html_filename, encoding="utf8").read()
     if hasattr(html_content, 'decode'):
         html_content = html_content.decode('utf-8')
-    tree = ElementTree(lxml.html.document_fromstring(html_content))
+    tree = etree.ElementTree(lxml.html.document_fromstring(html_content))
     i = 0
     j = 0
     for p in tree.findall('//p'):
