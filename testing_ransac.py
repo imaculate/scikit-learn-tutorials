@@ -1,4 +1,4 @@
-import sklearn.linear_model as linear_model
+from sklearn import linear_model
 from sklearn import datasets
 import numpy as np
 
