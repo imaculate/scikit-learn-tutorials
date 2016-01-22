@@ -1,0 +1,1 @@
+Wikidata ist eine frei bearbeitbare Datenbank mit dem Ziel die Wikipedia zu unterstützen und als gemeinsame Quelle bestimmte Datentypen, wie Geburtsdaten oder sonstige allgemeingültige Daten, für sämtliche Wikimedia-Projekte bereitzustellen.
